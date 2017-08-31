@@ -77,7 +77,7 @@
       scrollTop: 0
     }, 600);
     return false;
-  })
+  });
 
    // Projects Carousel
   $("#post-carousel").owlCarousel({

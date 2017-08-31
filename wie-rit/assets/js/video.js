@@ -20,4 +20,4 @@
 	    vid.pause();
 	    pauseButton.innerHTML = "<i class='icon-control-play'></i>";
 	  }
-	})
+	});

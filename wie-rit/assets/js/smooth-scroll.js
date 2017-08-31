@@ -368,7 +368,7 @@
 		var animateSettings = extend( settings || defaults, options || {}, overrides ); // Merge user options with defaults
 
 		// Selectors and variables
-		var isNum = Object.prototype.toString.call( anchor ) === '[object Number]' ? true : false;
+		var isNum = Object.prototype.toString.call(anchor) === '[object Number]';
 		var anchorElem = isNum || !anchor.tagName ? null : anchor;
 		if ( !isNum && !anchorElem ) return;
 		var startLocation = root.pageYOffset; // Current location on the page

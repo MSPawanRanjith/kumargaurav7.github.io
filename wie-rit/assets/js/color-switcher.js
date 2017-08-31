@@ -7,7 +7,7 @@ window.console = window.console || (function(){
 
 
 jQuery(document).ready(function($) {
-	"use strict"
+	"use strict";
 	
 	$("ul.colors .color1" ).click(function(){
 		$("#colors" ).attr("href", "assets/css/colors/default.css" );
@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
 				left: "-145px"
 			});
 		}
-	})
+	});
 
 	$("ul.colors li a").click(function(e){
 		e.preventDefault();
