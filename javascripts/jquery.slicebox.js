@@ -1,12 +1,12 @@
 /**
  * jquery.slicebox.js v1.1.0
- * http://www.codrops.com
+ * https://www.codrops.com
  *
  * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
+ * https://www.opensource.org/licenses/mit-license.php
  * 
  * Copyright 2012, Codrops
- * http://www.codrops.com
+ * https://www.codrops.com
  */
 
 ;( function( $, window, undefined ) {
@@ -165,7 +165,7 @@
 
 				// cached images don't fire load sometimes, so we reset src, but only when
 				// dealing with IE, or image is complete (loaded) and failed manual check
-				// webkit hack from http://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
+				// webkit hack from https://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
 				if ( el.readyState || el.complete ) {
 					el.src = BLANK;
 					el.src = src;
